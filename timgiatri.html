@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>giatri</title>
+</head>
+<body>
+<script>
+    let a=[1,2,3,4,5,6,7,8,9];
+    let check=parseInt(prompt("nhap pt can kiem tra co trong mang a hay ko"));
+    let b=false;
+    for(let i=0;i<a.length;i++){
+    if(a[i]===check){
+        document.write("phan tu "+check+"co trong mang a");
+        b=true;
+    }
+    }
+    if(b===false){document.write("phan tu "+check+"khong cos trong mang a");}
+</script>
+</body>
+</html>
